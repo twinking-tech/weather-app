@@ -5,7 +5,7 @@ body, html {
   padding: 0;
   overflow-x: hidden; /* Prevents horizontal scrolling */
   width: 100vw;  
-  background : url('.\components\images\background2.jpg') center/cover no-repeat ;  /* Ensures full width */
+  background : url('./components/images/background2.jpg') center/cover no-repeat ;  /* Ensures full width */
 }
 
 .app {

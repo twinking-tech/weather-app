@@ -117,26 +117,26 @@ h2{
 
 /* Backgrounds for different weather conditions */
 .clear-sky {
-    background: url('.\images\clear-sky.jpg') center/cover no-repeat;
+    background: url('./images/clear-sky.jpg') center/cover no-repeat;
 }
 
 .cloudy {
-    background: url('.\images\cloudy.jpg') center/cover no-repeat;
+    background: url('./images/cloudy.jpg') center/cover no-repeat;
 }
 
 .rainy {
-    background: url('.\images\rainy.jpg') center/cover no-repeat;
+    background: url('./images/rainy.jpg') center/cover no-repeat;
 }
 
 .stormy {
-    background: url('.\images\stormy.jpg') center/cover no-repeat;
+    background: url('./images/stormy.jpg') center/cover no-repeat;
 }
 
 .snowy {
-    background: url('.\images\snowy.jpg') center/cover no-repeat;
+    background: url('./images/snowy.jpg') center/cover no-repeat;
 }
 .haze{
-    background: url('.\images\haze.jpg') center/cover no-repeat;
+    background: url('./images/haze.jpg') center/cover no-repeat;
 }
 .mist{
     background: url('./images/mist.jpg') center/cover no-repeat;
