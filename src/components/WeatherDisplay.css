@@ -217,7 +217,7 @@ h2{
     }
     .weather-display {
         height: 100vh; /* Smaller height for mobile screens */
-        width: 80%;
+        width: 95%;
         padding: 10px;
     }
 
