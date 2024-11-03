@@ -16,8 +16,8 @@ const Navbar = () => {
             </button>
             <div className={`navbar-menu ${isOpen ? 'open' : ''}`}>
                 <a href="#">Home</a>
-                <a href="https://usage-guide.vercel.app" target="blank">Usage Guide</a>
-                <a href="#">About Us</a>
+                <a href="https://usage-guide.vercel.app" >Usage Guide</a>
+                <a href="https://about-us-lemon-omega.vercel.app/">About Us</a>
                 
             </div>
         </div>
