@@ -139,10 +139,10 @@ h2{
     background: url('.\images\haze.jpg') center/cover no-repeat;
 }
 .mist{
-    background: url('.\images\mist.jpg') center/cover no-repeat;
+    background: url('./images/mist.jpg') center/cover no-repeat;
 }
 .default-weather {
-    background: url('.\images\default.jpg') center/cover no-repeat;
+    background: url('./images/default.jpg') center/cover no-repeat;
 }
 
 /* Add additional styles if necessary */
