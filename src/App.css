@@ -1,0 +1,44 @@
+/* App.css */
+/* Global styles or in your main CSS file */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+  width: 100vw;  
+  background : url('.\components\images\background2.jpg') center/cover no-repeat ;  /* Ensures full width */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #222; /* For better contrast */
+  color: #fff;
+}
+
+
+main {
+  flex-grow: 1; /* Main content fills available space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Add spacing between sections */
+  padding: 20px;
+  margin-top: -120px;
+  margin-left: -20px;
+}
+
+.footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+.main-content {
+  flex-grow: 1;
+  padding-top: 60px; /* Adjust if Navbar is fixed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

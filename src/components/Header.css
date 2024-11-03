@@ -1,0 +1,63 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+.header {
+    width: 100vw;
+    height: 500px; /* Default height for large screens */
+    text-align: center;
+    color: #e8801f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/background3.jpg') no-repeat center center / cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+}
+
+.header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Media Queries */
+
+/* Medium screens (tablets) */
+@media (max-width: 1199px) {
+    .header {
+        height: 400px; /* Slightly reduce height for tablets */
+    }
+    .header h1 {
+        font-size: 2.5em; /* Reduce font size for header text */
+    }
+    .header p {
+        font-size: 1.2em; /* Adjust paragraph font size */
+    }
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+    .header {
+        height: 300px; /* Smaller header height for mobile screens */
+        padding: 10px;
+        background: url('./images/background3.jpg') no-repeat center center / cover; /* Ensure the background covers smaller screens */
+    }
+    .header h1 {
+        font-size: 2em; /* Further reduce font size for header */
+    }
+    .header p {
+        font-size: 1em; /* Smaller font size for paragraph */
+    }
+}

@@ -1,0 +1,21 @@
+.search-section {
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search-section input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-section button {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #ff8484;
+    border-radius: 5px;
+    cursor: pointer;
+}
